@@ -1,0 +1,489 @@
+/* type */
+
+
+
+@font-face {
+    font-family: 'moristonpersonal';
+    src: url('../fonts/moristonpersonal-light-webfont.eot');
+    src: url('../fonts/moristonpersonal-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/moristonpersonal-light-webfont.woff2') format('woff2'),
+         url('../fonts/moristonpersonal-light-webfont.woff') format('woff'),
+         url('../fonts/moristonpersonal-light-webfont.ttf') format('truetype'),
+         url('../fonts/moristonpersonal-light-webfont.svg#moriston_personallight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'moristonpersonal';
+    src: url('../fonts/moristonpersonal-regular-webfont.eot');
+    src: url('../fonts/moristonpersonal-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/moristonpersonal-regular-webfont.woff2') format('woff2'),
+         url('../fonts/moristonpersonal-regular-webfont.woff') format('woff'),
+         url('../fonts/moristonpersonal-regular-webfont.ttf') format('truetype'),
+         url('../fonts/moristonpersonal-regular-webfont.svg#moriston_personal_regularRg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'moristonpersonal';
+    src: url('../fonts/moristonpersonal-semibold-webfont.eot');
+    src: url('../fonts/moristonpersonal-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/moristonpersonal-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/moristonpersonal-semibold-webfont.woff') format('woff'),
+         url('../fonts/moristonpersonal-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/moristonpersonal-semibold-webfont.svg#moriston_personalsemibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'moristonpersonal';
+    src: url('../fonts/moristonpersonal-medium-webfont.eot');
+    src: url('../fonts/moristonpersonal-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/moristonpersonal-medium-webfont.woff2') format('woff2'),
+         url('../fonts/moristonpersonal-medium-webfont.woff') format('woff'),
+         url('../fonts/moristonpersonal-medium-webfont.ttf') format('truetype'),
+         url('../fonts/moristonpersonal-medium-webfont.svg#moriston_personalmedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'moristonpersonal';
+    src: url('../fonts/moristonpersonal-bold-webfont.eot');
+    src: url('../fonts/moristonpersonal-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/moristonpersonal-bold-webfont.woff2') format('woff2'),
+         url('../fonts/moristonpersonal-bold-webfont.woff') format('woff'),
+         url('../fonts/moristonpersonal-bold-webfont.ttf') format('truetype'),
+         url('../fonts/moristonpersonal-bold-webfont.svg#moriston_personalbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'moristonpersonal';
+    src: url('../fonts/moristonpersonal-black-webfont.eot');
+    src: url('../fonts/moristonpersonal-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/moristonpersonal-black-webfont.woff2') format('woff2'),
+         url('../fonts/moristonpersonal-black-webfont.woff') format('woff'),
+         url('../fonts/moristonpersonal-black-webfont.ttf') format('truetype'),
+         url('../fonts/moristonpersonal-black-webfont.svg#moriston_personalblack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+/* buttons tho */
+
+.btn {
+    border: none;
+    /*font-family: inherit;*/
+    /*font-size: inherit;*/
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    /*padding: 0rem 0rem;*/
+    display: inline-block;
+    /*margin-top: 1rem;*/
+    /*text-transform: uppercase;*/
+    /*letter-spacing: 1px;*/
+    font-weight: 500;
+    /*outline: none;*/
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/* Button 1 */
+.btn-1 {
+    text-decoration: none;
+    color: #2f3590;
+}
+
+/* Button 1a */
+.btn-1a:hover,
+.btn-1a:active {
+    color: #2f3590;
+    background: #2dffff;
+	text-decoration: none;
+}
+
+.btn-hero {
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+.left .btn-hero {
+	visibility: hidden;
+}
+
+.button-paragraph {
+    display: block;
+    text-align: left;
+    margin-top: 2rem;
+}
+
+body {
+font-size: 18px;
+font-family: 'moristonpersonal', Helvetica, sans-serif;
+font-weight: 300;
+margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, p{
+    color: #2f3590;
+    max-width: 50rem;
+}
+
+
+.button_box {
+    text-decoration: none;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: 2px solid #2dffff;
+    font-weight: 400;
+    font-size: 8pt;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.row .right_button {
+    margin-top: 3rem;
+}
+
+#volunteer {
+    margin-top: 3rem;
+    margin-bottom: 200px;
+}
+
+
+
+
+
+#invitation {
+    font-size: 58px;
+}
+
+div {
+    text-align: center;
+    display: inline-block;
+    padding-left: 0em;
+    padding-top: 0em;
+    padding-right: 0em;
+    padding-bottom: 0em;
+    margin-left: 0em;
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+}
+
+a {
+    text-decoration: none;
+	color: #5DB8BC;
+}
+
+a:hover {
+	color: #C51663;
+	text-decoration: underline;
+}
+
+img, p, h1, h2, h3, h4, h5 {
+    text-align: center;
+    display: inline-block;
+    max-width: 50rem;
+    padding-left: 0em;
+    padding-top: 0em;
+    padding-right: 0em;
+    padding-bottom: 0em;
+    margin-left: 0em;
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+
+}
+
+section {
+    width: 100%;
+}
+
+.left, .middle, .right {
+    width: 18%;
+
+}
+
+.left {
+    /*padding-right: 10%;*/
+    float: left;
+    /*margin: auto;*/
+}
+
+.middle {
+    /*padding-right: 10%;*/
+    width: 64%;
+    max-width: 64%;
+    float: center;
+    margin: auto;
+}
+
+.right {
+    float: right;
+    /*margin: auto;*/
+}
+
+.row.-hero-content {
+    padding-top: 1em;
+    font-size: 50pt;
+    font-weight: 300;
+
+}
+
+.headline {
+    width: 100%;
+    max-width: 100%;
+    float: center;
+}
+
+.headline h2 {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    font-weight: 300;
+    font-size: 58px;
+}
+
+#small_logo {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+}
+
+.red_bar {
+    display: inline-block;
+    border: 1px solid #ea267a;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+.body_text {
+    width: 100%;
+    max-width: 100%;
+    font-size: 20px;
+    line-height: 48px;
+}
+
+.mini_row {
+    width: 100%;
+    text-align: left;
+}
+.mini_row .text,
+.mini_row .icon {
+    display: inline-block;
+}
+.mini_row .text {
+    vertical-align: top;
+    text-align: left;
+}
+.mini_row .icon img {
+    vertical-align: middle;
+	margin-right: 1em;
+}
+.mini_row p {
+    text-align: left;
+/*    font-size: 20px;*/
+/*    line-height: 34px;*/
+    color: #ea267a;
+	margin-bottom: .75em;
+}
+
+.left_third {
+    width: 33%;
+    max-width: 33%;
+    margin: auto;
+    margin-bottom: 2rem;
+	height: inherit;
+	vertical-align: top !important;
+
+}
+.right_two_thirds {
+    width: 66%;
+    max-width: 66%;
+    margin: auto;
+    text-align: left;
+}
+
+.talk_title h3 {
+    text-align: left;
+    font-family: 'moristonpersonal', Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+
+.right_two_thirds p {
+    text-align: left;
+}
+
+.talk_title h2 {
+    margin-bottom: 1rem;
+    font-size: 27px;
+    font-weight: 300;
+	margin-top: 6rem;
+}
+
+.left_half {
+    width: 50%;
+    max-width: 50%;
+    float: left;
+    margin-top: 6rem;
+    /*background: url("../images/img-logo_xl.png");*/
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;*/
+
+}
+
+
+
+.right_button {
+    width: 66%;
+    float: right;
+
+
+}
+
+#big_logo {
+    margin-left: -50%;
+}
+
+.right_half{
+    width: 50%;
+    max-width: 50%;
+    margin-top: 25rem;
+}
+
+.right_half h2 {
+    margin-bottom: 3rem;
+    text-align: left;
+    font-size: 58px;
+}
+
+.right_half p {
+    text-align: left;
+}
+
+.row {
+    margin: 0 auto;
+    width: 95%;
+    max-width: 1024px;
+}
+
+
+
+/*h1 #big_headline {
+    font-size: 140px;
+    font-weight: 300;
+}*/
+
+#big_headline {
+    font-weight: 300;
+    font-size: 105px;
+    line-height: 120px;
+}
+strong {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ea267a;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 34px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #2E3192;
+    height: 110px;
+	padding-top: 2em;
+	padding-bottom: 0;
+}
+footer p {
+    color: #fff;
+    font-size: 9pt;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+footer p a:link;{
+	color: ##5DB8BC;
+	background-color: #fff;
+}
+
+footer p a:visited{
+	color: ##5DB8BC;
+}
+
+footer p a:hover{
+	color: #C51663;
+}
+
+@media only screen and (max-width: 750px) {
+
+    body {
+        font-size: 18pt;
+    }
+
+    div {
+        width: 100%;
+        margin: 0;
+    }
+
+    .right_two_thirds,
+    .left_third,
+    .right_half,
+    .left_half,
+    .left, .right, .middle {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .right_half {
+        margin-top: 1em;
+    }
+
+    .button_box {
+        margin-top: 2rem;
+    }
+
+    #big_headline {
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+
+}
+
+
