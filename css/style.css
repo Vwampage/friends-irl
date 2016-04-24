@@ -127,6 +127,14 @@
 .btn-hero {
     display: inline-block;
     margin-top: 2rem;
+    /*visibility: hidden;*/
+}
+.btn-hero p{
+    visibility: hidden;
+}
+
+.btn-hero img{
+    visibility: hidden;
 }
 
 .button-paragraph {
