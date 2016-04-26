@@ -253,6 +253,7 @@ section {
     padding-top: 1em;
     font-size: 50pt;
     font-weight: 300;
+    margin-bottom: 3rem;
 
 }
 
@@ -348,6 +349,7 @@ section {
     font-size: 27px;
     font-weight: 300;
 	margin-top: 6rem;
+	line-height: 72px;
 }
 
 .left_half {
@@ -387,6 +389,7 @@ section {
     margin-bottom: 3rem;
     text-align: left;
     font-size: 58px;
+    line-height: 72px;
 }
 
 .right_half p {
@@ -418,7 +421,7 @@ strong {
 }
 
 .description {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 34px;
 }
 
