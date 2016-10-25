@@ -375,6 +375,10 @@ section {
 
 }
 
+.blackbox-widget{
+	padding-top: 2rem;
+}
+
 #big_logo {
     margin-left: -50%;
 }
