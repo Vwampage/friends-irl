@@ -363,16 +363,20 @@ section {
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;*/
-
 }
-
 
 
 .right_button {
     width: 66%;
     float: right;
+}
 
+.left_third #pin_photo{
+    margin-top: -1.5em;	
+}
 
+#pin_photo img{
+    max-width: 310px;
 }
 
 .blackbox-widget{
