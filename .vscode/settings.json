@@ -1,4 +1,5 @@
 {
+	"editor.formatOnSave": true,
 	"workbench.colorCustomizations": {
 		"titleBar.activeForeground": "#ffffff",
 		"titleBar.inactiveForeground": "#ffffffcc",
