@@ -1,0 +1,15 @@
+{
+	"editor.formatOnSave": false,
+	"workbench.colorCustomizations": {
+		"titleBar.activeForeground": "#ffffff",
+		"titleBar.inactiveForeground": "#ffffffcc",
+		"titleBar.activeBackground": "#ED1E79",
+		"titleBar.inactiveBackground": "#ED1E79cc",
+		"[Monokai Pro]": {
+			"titleBar.activeForeground": "#ffffff",
+			"titleBar.inactiveForeground": "#ffffffcc",
+			"titleBar.activeBackground": "#ED1E79",
+			"titleBar.inactiveBackground": "#ED1E79cc",
+		},
+	},
+}
