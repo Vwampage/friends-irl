@@ -386,6 +386,11 @@ strong {
 	line-height: 34px;
 }
 
+.smol {
+	font-size: 14px;
+	line-height: 30px;
+}
+
 footer {
 	width: 100%;
 	text-align: center;
